@@ -1,0 +1,12 @@
+
+# ------ Only to work with Local Mongo Compass -----
+server:
+  port: 8080
+spring:
+  application:
+    name: demo
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: student
